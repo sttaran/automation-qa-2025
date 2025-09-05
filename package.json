@@ -1,0 +1,19 @@
+{
+  "name": "automation-qa-2025",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node js_intro/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-personal:sttaran/automation-qa-2025.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.6.0"
+  }
+}
