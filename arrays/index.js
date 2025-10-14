@@ -14,10 +14,8 @@
 // const users = ["Anton", "Maria", "Peter"]
 // console.log(users[1]);
 
-
 // const users = ["Anton", "Maria", "Peter"]
 // console.log(users[users.length - 1]);
-
 
 // const numbers = [1, "sssss", true, 4, 5];
 // console.log(numbers[1], numbers[2]);
@@ -36,9 +34,9 @@
 // console.log(users[1]);
 
 const matrix = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9],
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
 ];
 
 console.log(matrix[1][1]);

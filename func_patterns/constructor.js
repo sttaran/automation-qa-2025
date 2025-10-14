@@ -1,9 +1,9 @@
-function User(name, age){
-    this.name = name;
-    this.age = age;
-    this.sayHello = function() {
-        console.log(`Hello, my name is ${this.name}.`);
-    };
+function User(name, age) {
+  this.name = name;
+  this.age = age;
+  this.sayHello = function () {
+    console.log(`Hello, my name is ${this.name}.`);
+  };
 }
 
 const alice = new User('Alice', 19);

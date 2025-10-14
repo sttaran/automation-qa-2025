@@ -1,51 +1,18 @@
 class Animal {
-    _name
-    constructor(name) {
-        this._name = name;
-    }
+  _name;
+  constructor(name) {
+    this._name = name;
+  }
 }
 
 class Dog extends Animal {
-    constructor(name) {
-        super(name);
-    }
-
-
+  constructor(name) {
+    super(name);
+  }
 }
 
-const dog = new Dog("Rex")
+const dog = new Dog('Rex');
 console.log(dog);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // class Animal {
 //     #name

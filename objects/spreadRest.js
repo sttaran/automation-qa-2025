@@ -4,26 +4,28 @@
 // console.log(newNumbers); // [1, 2, 3, 4, 5]
 
 const memberPermissions = {
-    read: 'read',
-    write: 'write',
-}
+  read: 'read',
+  write: 'write',
+};
 
 const managerPermissions = {
-    ...memberPermissions,
-    invite: "invite",
-    read: "READ"
-}
+  ...memberPermissions,
+  invite: 'invite',
+  read: 'READ',
+};
 
 // console.log(memberPermissions);
 // console.log(managerPermissions);
 
-
 /// REST
 function sum(...numbers) {
-    return numbers.reduce((total, num) => total + num, 0);
+  return numbers.reduce(
+    (total, num) => total + num,
+    0,
+  );
 }
 
 const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-const nums2 = [9,8, 7]
+const nums2 = [9, 8, 7];
 
-console.log(sum(...nums,...nums2));
+console.log(sum(...nums, ...nums2));

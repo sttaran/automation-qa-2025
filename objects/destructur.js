@@ -13,7 +13,6 @@
 // const {role: userRole} = user
 // console.log(userRole);
 
-
 // const user = {
 //     name: "John",
 //     role: "admin",
@@ -41,12 +40,12 @@
 // }
 
 const person = {
-    name: "John",
-    age: 30,
-    address: {
-        city: "New York",
-        country: "USA"
-    }
+  name: 'John',
+  age: 30,
+  address: {
+    city: 'New York',
+    country: 'USA',
+  },
 };
 
 // const city = person.address.city;
@@ -64,9 +63,9 @@ const person = {
 // console.log(third);
 
 let a = 1;
-let b = 2;
+let b = 2
 
-[a, b] = [b,a]
+;[a, b] = [b, a];
 
 console.log(a);
 console.log(b);

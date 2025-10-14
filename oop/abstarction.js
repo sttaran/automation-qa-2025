@@ -1,30 +1,24 @@
 class ATM {
-    constructor(id) {}
+  constructor(id) {}
 
-    _checkCardExpired(){
-        //
-    }
+  _checkCardExpired() {
+    //
+  }
 
-    _checkBalance(){
+  _checkBalance() {}
 
-    }
+  _updateBalance() {}
 
-    _updateBalance(){
+  _openCashWindow() {}
 
-    }
-
-    _openCashWindow(){
-
-    }
-
-    withdraw(amount){
-        this._checkCardExpired()
-        this._checkBalance(amount)
-        this._updateBalance(amount)
-        this._openCashWindow()
-    }
+  withdraw(amount) {
+    this._checkCardExpired();
+    this._checkBalance(amount);
+    this._updateBalance(amount);
+    this._openCashWindow();
+  }
 }
 
-const atm   = new ATM("123");
+const atm = new ATM('123');
 
-atm.withdraw()
+atm.withdraw();

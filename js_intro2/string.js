@@ -4,7 +4,6 @@ const text = "I'm a string!";
 // console.log(text.length);
 // console.log("I'm a string!".length);
 
-
 // const single = 'Stanislav'
 // const double = "Stanislav"
 
@@ -15,14 +14,15 @@ const text = "I'm a string!";
 // console.log(template)
 // console.log(template2)
 
-const name = 'Stanislav'
-const template = `My name is ${name} ${name}`
+const name = 'Stanislav';
+const template = `My name is ${name} ${name}`;
 
 // console.log(template.includes("Stas"))
-console.log(template.replace("ololol", "Anonymous"))
+console.log(
+  template.replace('ololol', 'Anonymous'),
+);
 // console.log(template.replaceAll(name, "Anonymous"))
 
-if (!template.includes("ololol")) {
-    throw new Error(`There is no required string`)
-}else template.replace("ololol", "Anonymous")
-
+if (!template.includes('ololol')) {
+  throw new Error(`There is no required string`);
+} else template.replace('ololol', 'Anonymous');

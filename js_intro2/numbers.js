@@ -11,13 +11,11 @@
 // const result = 10 / 2
 // console.log("Divide", result)
 
-
 // const result = 10 - 2
 // console.log("Subtract", result)
 
 // const result = 10 * 2
 // console.log("Multiply", result)
-
 
 // const applesCount = 17
 // const applesPerBox = 4

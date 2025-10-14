@@ -10,35 +10,32 @@ const personAge = 17;
 //     console.log("It's an adult")
 // }
 
-
 switch (true) {
-    case personAge < 10:
-        console.log("It's a kid");
-        break;
-    case personAge <=14 && personAge >=10:
-        console.log("It's minor")
-        break;
-    case personAge > 14 && personAge < 18:
-        console.log("It's teenager")
-        break;
-    default:
-        console.log("It's an adult")
+  case personAge < 10:
+    console.log("It's a kid");
+    break;
+  case personAge <= 14 && personAge >= 10:
+    console.log("It's minor");
+    break;
+  case personAge > 14 && personAge < 18:
+    console.log("It's teenager");
+    break;
+  default:
+    console.log("It's an adult");
 }
 
-const userSubscriptionPlan = "Free"
+const userSubscriptionPlan = 'Free';
 
 switch (userSubscriptionPlan) {
-    case "Pro":
-        console.log("Pro access");
-        break;
-    case "Business":
-        console.log("Super access");
-        break;
-    default:
-        console.log("Limited access")
+  case 'Pro':
+    console.log('Pro access');
+    break;
+  case 'Business':
+    console.log('Super access');
+    break;
+  default:
+    console.log('Limited access');
 }
-
-
 
 // switch (personAge) {
 //     case 1:
@@ -51,10 +48,6 @@ switch (userSubscriptionPlan) {
 //         break;
 //     default:
 // }
-
-
-
-
 
 // const personAge = 7;
 // let giftCount = 0;

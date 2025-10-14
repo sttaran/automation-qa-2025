@@ -1,5 +1,3 @@
-
-
 // function printGreeting(name){
 //     console.log(`Hi ${name}!`)
 // }
@@ -8,14 +6,12 @@
 // const userName = "John"
 // printGreeting(userName)
 
-
 // function printGreeting(age, name = "Anonymous"){
 //     console.log(`Hi ${name}! Your age is ${age}!`)
 // }
 //
 // const userName = "John"
 // printGreeting(18, userName)
-
 
 // function calculateSum(...nums) {
 //    let sum = 0
@@ -32,7 +28,6 @@
 // // console.log(calculateSum(1,9))
 // console.log(calculateSum(1,9,1))
 
-
 // const calculateSum = (...nums) =>{
 //    let sum = 0
 //
@@ -45,11 +40,7 @@
 
 // const calculateSum = (...nums) => nums.reduce((sum, num) => sum + num, 0);
 
-
-
 // console.log(calculateSum(1,9,1))
-
-
 
 // function printPersonalInfo(name, grade, ...additionalInfo) {
 //     console.log(`It's ${name} from ${grade} , additionalInfo: ${additionalInfo.join(',')}`)

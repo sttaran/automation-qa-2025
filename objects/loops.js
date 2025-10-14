@@ -7,7 +7,6 @@
 //     console.log(user)
 // }
 
-
 // const user = {
 //     name: "Peter",
 //     age: 30,
@@ -45,15 +44,14 @@
 //     console.log("property is missing");
 // }
 
-
 const user = {
-    name: "Peter",
-    age: 30,
-    permissions: {
-        read_article: 1,
-        write_article: 1,
-    }
-}
+  name: 'Peter',
+  age: 30,
+  permissions: {
+    read_article: 1,
+    write_article: 1,
+  },
+};
 
 // const keys = Object.keys(user)
 // const values = Object.values(user)

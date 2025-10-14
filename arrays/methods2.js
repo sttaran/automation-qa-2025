@@ -6,7 +6,6 @@
 // numbers.forEach((num) => console.log(num));
 // ["banana","apple"].forEach((fruit) => console.log(fruit))
 
-
 // const numbers = [1, 2, 3, 4, 5];
 // const oddNumbers = numbers.filter(number => number % 2 !== 0);
 // console.log(oddNumbers);
@@ -14,7 +13,6 @@
 // const fruits = ["яблуко", "банан", "полуниця"];
 // const someFruits = fruits.filter(fruit => fruit.includes("о"));
 // console.log(someFruits);
-
 
 // const fruits = ["яблуко", "банан", "полуниця"];
 // const  someFruit = fruits.find(fruit => fruit.includes("о"))
@@ -34,5 +32,8 @@
 // console.log(months);
 
 const numbers = [1, 2, 3, 4, 5, 11, 221];
-numbers.sort((a, b) => a - b);
+numbers.sort((a, b) => a - b).filter((num) => num % 2 === 0).map((num) => num * Date.now());
 console.log(numbers);
+
+const a = "AAAAAAAAAA";
+const b = 'BBBBBBBBBB';

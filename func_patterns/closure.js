@@ -15,9 +15,9 @@
 // count()
 
 function multiplier(factor) {
-    return function(x) {
-        return x * factor;
-    };
+  return function (x) {
+    return x * factor;
+  };
 }
 
 const double = multiplier(2);
@@ -28,7 +28,6 @@ console.log(double(8));
 // const triple = multiplier(3)
 // console.log(triple(8));
 // console.log(triple(8));
-
 
 // function getMagicNumberGenerator(factor) {
 //     let multiplier = factor

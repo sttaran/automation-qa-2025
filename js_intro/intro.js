@@ -1,4 +1,4 @@
-const name = "Stanislav"
+const name = 'Stanislav';
 
-console.log(name.length)
-console.log(name.toUpperCase())
+console.log(name.length);
+console.log(name.toUpperCase());

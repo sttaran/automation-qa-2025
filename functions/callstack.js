@@ -4,12 +4,12 @@
 // printGreeting("Stas")
 
 function foo() {
-    console.log("foo");
-    bar();
+  console.log('foo');
+  bar();
 }
 
 function bar() {
-    console.log("bar");
+  console.log('bar');
 }
 
 foo();
