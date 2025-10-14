@@ -34,7 +34,6 @@
 // const myGreet = person.greet
 // myGreet()
 
-
 // class Person {
 //     constructor(name) {
 //         this.name = name;
@@ -51,8 +50,8 @@
 // peter.greet();
 
 const person = {
-    name: 'Alice',
-    greet: () =>{
-        console.log(`Hello, ${this.name}!`);
-    }
+  name: 'Alice',
+  greet: () => {
+    console.log(`Hello, ${this.name}!`);
+  },
 };

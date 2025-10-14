@@ -9,12 +9,10 @@
 // printName("Stas")
 // // console.log(name)
 
-
-
-import printAverageGrade from "./printGrade.js";
+import printAverageGrade from './printGrade.js';
 
 // console.log("BEFORE")
-const grade = printAverageGrade("60")
+const grade = printAverageGrade('60');
 // console.log(grade)
 // if (!grade) {
 //     throw new  Error("grade is required");

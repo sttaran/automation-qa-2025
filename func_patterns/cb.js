@@ -17,28 +17,36 @@
 //     console.log("Operation successful");
 // }
 
-function printFail(){
-    console.log("payment failed")
+function printFail() {
+  console.log('payment failed');
 }
 
-function printSuccess(){
-    console.log("payment was successful")
+function printSuccess() {
+  console.log('payment was successful');
 }
 
-function processPayment(amount, balance, onFailure, onSuccess){
-    if (typeof onFailure !== "function" || typeof onSuccess !== "function"){
-        return
-    }
+function processPayment(
+  amount,
+  balance,
+  onFailure,
+  onSuccess,
+) {
+  if (
+    typeof onFailure !== 'function' ||
+    typeof onSuccess !== 'function'
+  ) {
+    return;
+  }
 
-    if (balance < amount){
-        onFailure()
-        return;
-    }
+  if (balance < amount) {
+    onFailure();
+    return;
+  }
 
-    onSuccess()
+  onSuccess();
 }
 
-processPayment(111,11, printFail, printSuccess)
+processPayment(111, 11, printFail, printSuccess);
 
 // const printSomething = (amount)=> console.log(amount)
 //

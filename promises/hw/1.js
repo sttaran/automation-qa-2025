@@ -7,7 +7,10 @@
 //     Функція повинна вивести в консоль переданий текст через вказану кількість мілісекунд
 
 function printTextAfterDelay(text, delay) {
-    return setTimeout(()=> console.log(text), delay)
+  return setTimeout(
+    () => console.log(text),
+    delay,
+  );
 }
 
-printTextAfterDelay("Hello after 2 seconds", 2000)
+printTextAfterDelay('Hello after 2 seconds', 2000);

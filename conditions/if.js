@@ -1,4 +1,3 @@
-
 // const name = "Stan"
 // const personAge = 20;
 // const isAdult = personAge > 18;
@@ -15,13 +14,11 @@
 
 // if (hasAccess) console.log("Person has access");
 
-
 // if (isAdult && name.length > 5){
 //     console.log("Person has access")
 // } else {
 //     console.log("Person does not have access")
 // }
-
 
 // const personAge = 1;
 //
@@ -35,7 +32,6 @@
 //     }
 // }
 
-
 // if (personAge < 10) {
 //     console.log("It's a kid");
 // } else if (personAge <=14 && personAge >=10) {
@@ -46,4 +42,4 @@
 //     console.log("It's an adult")
 // }
 
-console.log("END")
+console.log('END');

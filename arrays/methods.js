@@ -27,8 +27,7 @@
 // console.log(firstEl)
 // console.log(fruits)
 
-
-const fruits = ["яблуко", "банан", "полуниця"];
+const fruits = ['яблуко', 'банан', 'полуниця'];
 // const someFruits = fruits.slice(1)
 // console.log(someFruits)
 
@@ -38,8 +37,6 @@ const fruits = ["яблуко", "банан", "полуниця"];
 // fruitsCopy.splice(1, 1, "mango") // replace
 // fruitsCopy.splice(1, 0, "mango") // add
 // console.log(fruitsCopy);
-
-
 
 const array1 = [1, 2];
 const array2 = [3, 4];

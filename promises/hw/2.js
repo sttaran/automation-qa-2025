@@ -12,28 +12,30 @@
 // Функція повинна повертати як результат Promise що повертає об’єкт user
 // Викорситайте методи Promise.all та Promise.race передавши їм як аргумент масив з викликами функцій з п.п. 1-2. Присвойте значення отримані від цих виразів до змінних
 
-
 function fetchTodoById(id) {
-    return fetch(`https://jsonplaceholder.typicode.com/todos/${id}`)
-        .then(res => res.json())
-        .catch(err => console.log(err))
+  return fetch(
+    `https://jsonplaceholder.typicode.com/todos/${id}`,
+  )
+    .then((res) => res.json())
+    .catch((err) => console.log(err));
 }
 
-
 function fetchUserById(id) {
-    return fetch(`https://jsonplaceholder.typicode.com/users/${id}`)
-        .then(res => res.json())
-        .catch(err => console.log(err))
+  return fetch(
+    `https://jsonplaceholder.typicode.com/users/${id}`,
+  )
+    .then((res) => res.json())
+    .catch((err) => console.log(err));
 }
 
 const responses = await Promise.all([
-    fetchTodoById('1'),
-    fetchUserById('1'),
-])
-console.log(responses)
+  fetchTodoById('1'),
+  fetchUserById('1'),
+]);
+console.log(responses);
 
-const firstResponse  = await Promise.race([
-    fetchTodoById('1'),
-    fetchUserById('1'),
-])
-console.log(firstResponse)
+const firstResponse = await Promise.race([
+  fetchTodoById('1'),
+  fetchUserById('1'),
+]);
+console.log(firstResponse);

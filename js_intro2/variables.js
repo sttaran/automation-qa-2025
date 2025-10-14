@@ -13,13 +13,12 @@
 // sadasdasd
 
 /*
-* NAMING
-* */
+ * NAMING
+ * */
 
 // const age_of_user = 10
 // const _age =  11 // use only for clas methods
 // const $age = 2 do not use
-
 
 // const ageOfUser = 10
 

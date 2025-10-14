@@ -12,7 +12,6 @@
 //
 // numbers.forEach(n => console.log(n))
 
-
 // recursion
 // function foo (){
 //     foo()
@@ -30,7 +29,6 @@
 //
 // console.log(factorial(5)) // 5 * 4 * 3 * 2 * 1
 
-
 // const add = (a, b) => a + b;
 // add(3, 4);
 
@@ -42,8 +40,10 @@
 // const add2 =  add(2)
 // console.log(add2(5))
 
-const range = (a, b) => a > b ? [] : [a, ...range(a+1, b)];
-const multiply = arr => arr.reduce((p, a) => p * a);
-const factorial = n => multiply(range(1, n));
+const range = (a, b) =>
+  a > b ? [] : [a, ...range(a + 1, b)];
+const multiply = (arr) =>
+  arr.reduce((p, a) => p * a);
+const factorial = (n) => multiply(range(1, n));
 
-factorial(5)
+factorial(5);

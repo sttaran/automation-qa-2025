@@ -7,7 +7,6 @@
 //
 // user = "user1"
 
-
 // global scope
 // const user = "Stanislav"
 //
@@ -20,7 +19,6 @@
 // }
 // console.log("Outside", hobby)
 // // console.log("Outside", age)
-
 
 // functional scope
 // function foo(){
@@ -36,18 +34,17 @@
 //
 // console.log("Outside2", hobby)
 
-
 // block scope
-const user = "Stanislav"
+const user = 'Stanislav';
 
-if (user === "Stanislav") {
-    const age = 12
-    console.log("Inside", age)
+if (user === 'Stanislav') {
+  const age = 12;
+  console.log('Inside', age);
 
-    if (true){
-        const name = "John"
-        console.log(age)
-    }
+  if (true) {
+    const name = 'John';
+    console.log(age);
+  }
 
-    console.log("name", name)
+  console.log('name', name);
 }

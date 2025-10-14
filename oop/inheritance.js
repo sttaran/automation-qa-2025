@@ -20,39 +20,40 @@
 // dog.speak(); // Dog says Woof
 
 class Animal {
-    constructor(name, sound) {
-        this.name = name;
-        this.sound = sound;
-        this.legs = 4
-    }
+  constructor(name, sound) {
+    this.name = name;
+    this.sound = sound;
+    this.legs = 4;
+  }
 
-    speak() {
-        console.log(`${this.name} says ${this.sound}`);
-    }
+  speak() {
+    console.log(`${this.name} says ${this.sound}`);
+  }
 }
 
-
 class Dog extends Animal {
-    constructor(name) {
-        super(name, "woof woof");
-    }
+  constructor(name) {
+      super(name);
+  }
 
-    speak() {
-        console.log(`[OVERWRITTEN] ${this.name} says ${this.sound.toUpperCase()}`);
-    }
+  speak() {
+    console.log(
+      `[OVERWRITTEN] ${this.name} says ${this.sound.toUpperCase()}`,
+    );
+  }
 
-    walk(){
-        console.log(`${this.name} walk`);
-    }
+  walk() {
+    console.log(`${this.name} walk`);
+  }
 }
 
 class Cat extends Animal {
-    constructor(name) {
-        super(name, "meow");
-    }
+  constructor(name) {
+    super(name, 'meow');
+  }
 }
 
-const dog = new Dog("Rex");
+const dog = new Dog('Rex');
 dog.speak();
 dog.walk();
 console.log(dog.legs);
@@ -60,3 +61,8 @@ console.log(dog.legs);
 // const cat = new Cat("Tom")
 // cat.speak();
 // cat.walk();
+
+
+const a = new Cat();
+
+console.log(a);

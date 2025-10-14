@@ -28,7 +28,6 @@
 // console.log(usersList2)
 // console.log("-----------------------")
 
-
 // const usersList1 = ["Anton", "Maria"]
 // const usersList2 = structuredClone(usersList1)
 //
@@ -48,7 +47,6 @@
 // const usersList2 = JSON.parse(JSON.stringify(usersList1))
 // console.log(usersList2)
 // console.log(typeof usersList2)
-
 
 //
 

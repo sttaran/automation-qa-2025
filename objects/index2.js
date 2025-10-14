@@ -1,5 +1,5 @@
-const name = "Peter"
-const age = 30
+const name = 'Peter';
+const age = 30;
 
 // const user = {
 //     name: name,
@@ -7,8 +7,8 @@ const age = 30
 // }
 
 const user = {
-    name,
-    age,
-}
+  name,
+  age,
+};
 
-console.log(user)
+console.log(user);

@@ -21,27 +21,26 @@
 // dog.name = "D"
 // console.log(dog.name)
 
-
 class Circle {
-    constructor(radius) {
-        this._radius = radius;
-    }
+  constructor(radius) {
+    this._radius = radius;
+  }
 
-    get radius() {
-        return this._radius;
-    }
+  get radius() {
+    return this._radius;
+  }
 
-    get area() {
-        return Math.PI * this._radius ** 2;
-    }
+  get area() {
+    return Math.PI * this._radius ** 2;
+  }
 
-     calculateArea() {
-        return Math.PI * this._radius ** 2;
-    }
+  calculateArea() {
+    return Math.PI * this._radius ** 2;
+  }
 }
 
 const circle1 = new Circle(2);
-const circle2= new Circle(3);
+const circle2 = new Circle(3);
 console.log(circle1.area);
 console.log(circle2.area);
 // console.log(circle1.calculateArea());

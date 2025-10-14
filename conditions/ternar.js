@@ -1,8 +1,8 @@
-const personAge = 17
+const personAge = 17;
 
-const isAdult  = personAge >= 18
-                          // умова ? виконується умова: не виконується умова
-const accessLevel = isAdult ? "Full" : "Limited"
+const isAdult = personAge >= 18;
+// умова ? виконується умова: не виконується умова
+const accessLevel = isAdult ? 'Full' : 'Limited';
 
 // let accessLevel
 
@@ -12,4 +12,4 @@ const accessLevel = isAdult ? "Full" : "Limited"
 //     accessLevel = "Limited"
 // }
 
-console.log(accessLevel)
+console.log(accessLevel);
